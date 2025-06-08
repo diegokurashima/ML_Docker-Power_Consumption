@@ -1,2 +1,2 @@
-# Energy_Consumption-ML_Deploy
-ML Deploy with Docker. PJM East Region (USA) Power Consumption.
+# Energy_Consumption-ML_Docker
+Machine Learning model deploy with Docker. PJM East Region (USA) Power Consumption.
