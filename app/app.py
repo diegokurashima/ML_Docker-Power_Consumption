@@ -37,9 +37,9 @@ def create_features_Datetime(df_input):
     return df
 
 @app.post('/predict')
-async def predict():
+async def predict(year, month, day, hour):
 
-    dt = datetime.datetime(2026, 5, 12, 8)
+    dt = datetime.datetime(int(year), int(month), int(day), int(hour))
 
     # Dataframe
     df = pd.DataFrame({"Datetime": [dt]})
